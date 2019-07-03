@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Imap Automation Testing Framework]">
+  <test thread-count="5" name="Imap Test Cases(failed)">
+    <classes>
+      <class name="com.ImapTesting.testcases.TC_CompressorConfiguration">
+        <methods>
+          <include name="Verify_LblVoltage"/>
+          <include name="setExtentReport"/>
+          <include name="Verify_LabelCost"/>
+          <include name="Verify_LabelFrequency"/>
+          <include name="Verify_SatSucTemp"/>
+          <include name="QuitBrowser"/>
+          <include name="setup"/>
+          <include name="Verify_Units_UserSpecifiedParameters"/>
+          <include name="Verify_Usersetting_SI"/>
+          <include name="Verify_CoefficientUnitIP_FixedSpeedCompressor"/>
+          <include name="Verify_Userspecifiedparameterfields_SI"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.ImapTesting.testcases.TC_CompressorConfiguration -->
+    </classes>
+  </test> <!-- Imap Test Cases(failed) -->
+</suite> <!-- Failed suite [Imap Automation Testing Framework] -->

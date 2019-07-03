@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.ImapTesting.testcases.TC_CompressorConfiguration">
+        <methods>
+          <include name="setExtentReport"/>
+          <include name="VerifyUserSpecifiedParameter_SI"/>
+          <include name="QuitBrowser"/>
+          <include name="setup"/>
+          <include name="Verify_Usersetting_SI"/>
+          <include name="Verify_Userspecifiedparameterfields_SI"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.ImapTesting.testcases.TC_CompressorConfiguration -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

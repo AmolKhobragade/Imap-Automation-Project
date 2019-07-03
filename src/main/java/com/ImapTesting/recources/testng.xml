@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Imap Automation Testing Framework">
+
+
+<!-- <listeners>
+<listener class-name="com.ImapTesting.ExtentReportListner.ExtentReporterNG"></listener>
+</listeners> -->
+
+
+   <test name = "Imap Test Cases">
+      <classes>
+      
+         <class name = "com.ImapTesting.testcases.TC_CompressorConfiguration"></class> 
+         <!-- <class name = "com.ImapTesting.testcases.TC_Dashboard"></class> -->
+         
+      </classes>
+   </test>
+</suite>  	 
